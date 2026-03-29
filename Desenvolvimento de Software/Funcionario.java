@@ -72,14 +72,4 @@ public class Funcionario {
             this.salario += boni2;
         }
     }
-
-    boolean trabalhando(String ativo){
-        if (this.ativo != "sim"){
-            System.out.println("Funcionário já foi demitido");
-            return false;
-        } else{
-            System.out.println("Funcinário trabalhando");
-            return true;
-        }
-    }
 }
